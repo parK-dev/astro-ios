@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EEBA0922AD7EB9200B41426 /* astroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBA0912AD7EB9200B41426 /* astroApp.swift */; };
+		4EEBA0942AD7EB9200B41426 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBA0932AD7EB9200B41426 /* ContentView.swift */; };
+		4EEBA0962AD7EB9300B41426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBA0952AD7EB9300B41426 /* Assets.xcassets */; };
+		4EEBA0992AD7EB9300B41426 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBA0982AD7EB9300B41426 /* Preview Assets.xcassets */; };
+		4EEBA0A32AD7EB9300B41426 /* astroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBA0A22AD7EB9300B41426 /* astroTests.swift */; };
+		4EEBA0AD2AD7EB9300B41426 /* astroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBA0AC2AD7EB9300B41426 /* astroUITests.swift */; };
+		4EEBA0AF2AD7EB9300B41426 /* astroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBA0AE2AD7EB9300B41426 /* astroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EEBA09F2AD7EB9300B41426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EEBA0862AD7EB9200B41426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEBA08D2AD7EB9200B41426;
+			remoteInfo = astro;
+		};
+		4EEBA0A92AD7EB9300B41426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EEBA0862AD7EB9200B41426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEBA08D2AD7EB9200B41426;
+			remoteInfo = astro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EEBA08E2AD7EB9200B41426 /* astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEBA0912AD7EB9200B41426 /* astroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astroApp.swift; sourceTree = "<group>"; };
+		4EEBA0932AD7EB9200B41426 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EEBA0952AD7EB9300B41426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EEBA0982AD7EB9300B41426 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EEBA09E2AD7EB9300B41426 /* astroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = astroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEBA0A22AD7EB9300B41426 /* astroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astroTests.swift; sourceTree = "<group>"; };
+		4EEBA0A82AD7EB9300B41426 /* astroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = astroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEBA0AC2AD7EB9300B41426 /* astroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astroUITests.swift; sourceTree = "<group>"; };
+		4EEBA0AE2AD7EB9300B41426 /* astroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EEBA08B2AD7EB9200B41426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEBA09B2AD7EB9300B41426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEBA0A52AD7EB9300B41426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EEBA0852AD7EB9200B41426 = {
+			isa = PBXGroup;
+			children = (
+				4EEBA0902AD7EB9200B41426 /* astro */,
+				4EEBA0A12AD7EB9300B41426 /* astroTests */,
+				4EEBA0AB2AD7EB9300B41426 /* astroUITests */,
+				4EEBA08F2AD7EB9200B41426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EEBA08F2AD7EB9200B41426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EEBA08E2AD7EB9200B41426 /* astro.app */,
+				4EEBA09E2AD7EB9300B41426 /* astroTests.xctest */,
+				4EEBA0A82AD7EB9300B41426 /* astroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EEBA0902AD7EB9200B41426 /* astro */ = {
+			isa = PBXGroup;
+			children = (
+				4EEBA0912AD7EB9200B41426 /* astroApp.swift */,
+				4EEBA0932AD7EB9200B41426 /* ContentView.swift */,
+				4EEBA0952AD7EB9300B41426 /* Assets.xcassets */,
+				4EEBA0972AD7EB9300B41426 /* Preview Content */,
+			);
+			path = astro;
+			sourceTree = "<group>";
+		};
+		4EEBA0972AD7EB9300B41426 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4EEBA0982AD7EB9300B41426 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4EEBA0A12AD7EB9300B41426 /* astroTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EEBA0A22AD7EB9300B41426 /* astroTests.swift */,
+			);
+			path = astroTests;
+			sourceTree = "<group>";
+		};
+		4EEBA0AB2AD7EB9300B41426 /* astroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EEBA0AC2AD7EB9300B41426 /* astroUITests.swift */,
+				4EEBA0AE2AD7EB9300B41426 /* astroUITestsLaunchTests.swift */,
+			);
+			path = astroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EEBA08D2AD7EB9200B41426 /* astro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEBA0B22AD7EB9300B41426 /* Build configuration list for PBXNativeTarget "astro" */;
+			buildPhases = (
+				4EEBA08A2AD7EB9200B41426 /* Sources */,
+				4EEBA08B2AD7EB9200B41426 /* Frameworks */,
+				4EEBA08C2AD7EB9200B41426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = astro;
+			productName = astro;
+			productReference = 4EEBA08E2AD7EB9200B41426 /* astro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EEBA09D2AD7EB9300B41426 /* astroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEBA0B52AD7EB9300B41426 /* Build configuration list for PBXNativeTarget "astroTests" */;
+			buildPhases = (
+				4EEBA09A2AD7EB9300B41426 /* Sources */,
+				4EEBA09B2AD7EB9300B41426 /* Frameworks */,
+				4EEBA09C2AD7EB9300B41426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EEBA0A02AD7EB9300B41426 /* PBXTargetDependency */,
+			);
+			name = astroTests;
+			productName = astroTests;
+			productReference = 4EEBA09E2AD7EB9300B41426 /* astroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EEBA0A72AD7EB9300B41426 /* astroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEBA0B82AD7EB9300B41426 /* Build configuration list for PBXNativeTarget "astroUITests" */;
+			buildPhases = (
+				4EEBA0A42AD7EB9300B41426 /* Sources */,
+				4EEBA0A52AD7EB9300B41426 /* Frameworks */,
+				4EEBA0A62AD7EB9300B41426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EEBA0AA2AD7EB9300B41426 /* PBXTargetDependency */,
+			);
+			name = astroUITests;
+			productName = astroUITests;
+			productReference = 4EEBA0A82AD7EB9300B41426 /* astroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EEBA0862AD7EB9200B41426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4EEBA08D2AD7EB9200B41426 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					4EEBA09D2AD7EB9300B41426 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4EEBA08D2AD7EB9200B41426;
+					};
+					4EEBA0A72AD7EB9300B41426 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4EEBA08D2AD7EB9200B41426;
+					};
+				};
+			};
+			buildConfigurationList = 4EEBA0892AD7EB9200B41426 /* Build configuration list for PBXProject "astro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EEBA0852AD7EB9200B41426;
+			productRefGroup = 4EEBA08F2AD7EB9200B41426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EEBA08D2AD7EB9200B41426 /* astro */,
+				4EEBA09D2AD7EB9300B41426 /* astroTests */,
+				4EEBA0A72AD7EB9300B41426 /* astroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EEBA08C2AD7EB9200B41426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEBA0992AD7EB9300B41426 /* Preview Assets.xcassets in Resources */,
+				4EEBA0962AD7EB9300B41426 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEBA09C2AD7EB9300B41426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEBA0A62AD7EB9300B41426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EEBA08A2AD7EB9200B41426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEBA0942AD7EB9200B41426 /* ContentView.swift in Sources */,
+				4EEBA0922AD7EB9200B41426 /* astroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEBA09A2AD7EB9300B41426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEBA0A32AD7EB9300B41426 /* astroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEBA0A42AD7EB9300B41426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEBA0AF2AD7EB9300B41426 /* astroUITestsLaunchTests.swift in Sources */,
+				4EEBA0AD2AD7EB9300B41426 /* astroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EEBA0A02AD7EB9300B41426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEBA08D2AD7EB9200B41426 /* astro */;
+			targetProxy = 4EEBA09F2AD7EB9300B41426 /* PBXContainerItemProxy */;
+		};
+		4EEBA0AA2AD7EB9300B41426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEBA08D2AD7EB9200B41426 /* astro */;
+			targetProxy = 4EEBA0A92AD7EB9300B41426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EEBA0B02AD7EB9300B41426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EEBA0B12AD7EB9300B41426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EEBA0B32AD7EB9300B41426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"astro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nvim.astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EEBA0B42AD7EB9300B41426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"astro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nvim.astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EEBA0B62AD7EB9300B41426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nvim.astroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/astro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/astro";
+			};
+			name = Debug;
+		};
+		4EEBA0B72AD7EB9300B41426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nvim.astroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/astro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/astro";
+			};
+			name = Release;
+		};
+		4EEBA0B92AD7EB9300B41426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nvim.astroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = astro;
+			};
+			name = Debug;
+		};
+		4EEBA0BA2AD7EB9300B41426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nvim.astroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = astro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EEBA0892AD7EB9200B41426 /* Build configuration list for PBXProject "astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEBA0B02AD7EB9300B41426 /* Debug */,
+				4EEBA0B12AD7EB9300B41426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEBA0B22AD7EB9300B41426 /* Build configuration list for PBXNativeTarget "astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEBA0B32AD7EB9300B41426 /* Debug */,
+				4EEBA0B42AD7EB9300B41426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEBA0B52AD7EB9300B41426 /* Build configuration list for PBXNativeTarget "astroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEBA0B62AD7EB9300B41426 /* Debug */,
+				4EEBA0B72AD7EB9300B41426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEBA0B82AD7EB9300B41426 /* Build configuration list for PBXNativeTarget "astroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEBA0B92AD7EB9300B41426 /* Debug */,
+				4EEBA0BA2AD7EB9300B41426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EEBA0862AD7EB9200B41426 /* Project object */;
+}
